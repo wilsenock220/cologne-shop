@@ -1,4 +1,5 @@
 @import "nav.css";
+@import "footer.css";
 .hero-section {
     width: 100%;
     height: calc(100vh - 120px);
@@ -159,8 +160,8 @@
 .collection-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 10px; */
 }
 
 .collection {
@@ -182,9 +183,4 @@
     color: #fff;
     font-size: 50px;
     text-transform: capitalize;
-}
-
-.collection:nth-child(3) {
-    grid-column: span 2;
-    margin-bottom: 10px;
 }
